@@ -58,7 +58,11 @@ export default function CheckIn({ service }) {
     <main className="app-shell">
       <section className="checkin-card">
         <header className="brand">
-          <div className="brand-mark">GWC</div>
+          <img
+  src={`${import.meta.env.BASE_URL}GWC-Logo-App.svg`}
+  alt="GWC"
+  className="brand-logo"
+/>
           <div>
             <h1>Townhall Attendance</h1>
             <p>ALIGNMENT. ACCOUNTABILITY. AGILITY</p>
